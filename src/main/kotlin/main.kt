@@ -1,5 +1,6 @@
 import day1.SonarSweep
 import day2.Dive
+import day3.BinaryDiagnostic
 
 fun main(args: Array<String>) {
 
@@ -7,8 +8,8 @@ fun main(args: Array<String>) {
         val module = when (args[0]) {
             "1" -> SonarSweep
             "2" -> Dive
-            /*"3" -> TobogganTrajectory
-            "4" -> PassportProcessing
+            "3" -> BinaryDiagnostic
+            /*"4" -> PassportProcessing
             "5" -> BinaryBoarding
             "6" -> CustomCustoms
             "7" -> HandyHaversacks
