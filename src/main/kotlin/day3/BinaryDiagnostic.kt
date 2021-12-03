@@ -74,16 +74,16 @@ object BinaryDiagnostic : DailyExercise {
         numBits: Int,
         method: (bitX: Int, charArray: CharArray, numBits: Int) -> Char
     ): String {
-        var diagnosticReport1 = diagnosticReport
+        var mutableDiagnosticReport = diagnosticReport
         var bitIndex = 0
         var commonBitString = ""
-        while (diagnosticReport1.size != 1) {
-            val concat = diagnosticReport1.joinToString("")
-            val mostCommonBit = method(bitIndex, concat.toCharArray(), numBits)
-            commonBitString += mostCommonBit
-            diagnosticReport1 = diagnosticReport1.filter { el -> el[bitIndex] == mostCommonBit }
+        while (mutableDiagnosticReport.size != 1) {
+            val concat = mutableDiagnosticReport.joinToString("")
+            val commonBit = method(bitIndex, concat.toCharArray(), numBits)
+            commonBitString += commonBit
+            mutableDiagnosticReport = mutableDiagnosticReport.filter { el -> el[bitIndex] == commonBit }
             bitIndex++
         }
-        return diagnosticReport1.first()
+        return mutableDiagnosticReport.first()
     }
 }
