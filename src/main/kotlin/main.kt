@@ -1,6 +1,7 @@
 import day1.SonarSweep
 import day2.Dive
 import day3.BinaryDiagnostic
+import day4.GiantSquid
 
 fun main(args: Array<String>) {
 
@@ -9,8 +10,8 @@ fun main(args: Array<String>) {
             "1" -> SonarSweep
             "2" -> Dive
             "3" -> BinaryDiagnostic
-            /*"4" -> PassportProcessing
-            "5" -> BinaryBoarding
+            "4" -> GiantSquid
+            /*"5" -> BinaryBoarding
             "6" -> CustomCustoms
             "7" -> HandyHaversacks
             "8" -> HandheldHalting
