@@ -2,6 +2,7 @@ import day1.SonarSweep
 import day2.Dive
 import day3.BinaryDiagnostic
 import day4.GiantSquid
+import day5.HydrothermalVenture
 
 fun main(args: Array<String>) {
 
@@ -11,8 +12,8 @@ fun main(args: Array<String>) {
             "2" -> Dive
             "3" -> BinaryDiagnostic
             "4" -> GiantSquid
-            /*"5" -> BinaryBoarding
-            "6" -> CustomCustoms
+            "5" -> HydrothermalVenture
+            /*"6" -> CustomCustoms
             "7" -> HandyHaversacks
             "8" -> HandheldHalting
             "9" -> EncodingError
