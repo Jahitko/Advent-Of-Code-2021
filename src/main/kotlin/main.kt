@@ -4,6 +4,7 @@ import day3.BinaryDiagnostic
 import day4.GiantSquid
 import day5.HydrothermalVenture
 import day6.Lanternfish
+import day7.TheTreacheryOfWhales
 
 fun main(args: Array<String>) {
 
@@ -15,8 +16,8 @@ fun main(args: Array<String>) {
             "4" -> GiantSquid
             "5" -> HydrothermalVenture
             "6" -> Lanternfish
-            /*"7" -> HandyHaversacks
-            "8" -> HandheldHalting
+            "7" -> TheTreacheryOfWhales
+            /*"8" -> HandheldHalting
             "9" -> EncodingError
             "10" -> AdapterArray
             "11" -> SeatingSystem
